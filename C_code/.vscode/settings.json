@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "*.html": "html",
+        "getopt.h": "c",
+        "stdlib.h": "c",
+        "stdio.h": "c"
+    },
+    "C_Cpp.codeAnalysis.clangTidy.checks.disabled": [
+        "clang-analyzer-unix.Stream",
+        "clang-analyzer-deadcode.DeadStores",
+        "clang-analyzer-unix.StdCLibraryFunctions",
+        "clang-analyzer-core.UndefinedBinaryOperatorResult",
+        "clang-analyzer-unix.Malloc",
+        "clang-diagnostic-constant-conversion",
+        "clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling"
+    ]
+}
