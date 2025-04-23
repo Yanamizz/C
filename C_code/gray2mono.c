@@ -98,20 +98,17 @@ int main(int argc, char *argv[])
     int black=0,white=0;
     for (int i = 0;i<width*height;i++)
     {
-        printf("%d ",avegray[i]);
         if (avegray[i] > t)
         {
-            mono[i] = 1;
-            white++;
+            mono[i] = 1;  
         }
         else
         {
             mono[i] = 0;
-            black++;
         }
         
     }
-    printf("\n%d %d %d %d",white , black , t , r);
+
 //mono2bmp
     save_binary_to_bmp(mono_path, mono, width, height);
     
